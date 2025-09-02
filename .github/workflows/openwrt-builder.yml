@@ -91,10 +91,6 @@ jobs:
 
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a 
-#        rm -rf feeds/luci/applications/luci-app-openlist
-#        rm -rf feeds/packages/openlist
-#        git clone https://github.com/OpenListTeam/OpenList-OpenWRT package/openlist
-
 
 
         
